@@ -1,0 +1,71 @@
+.navbar {
+    background: linear-gradient(to right, #4B0082, #800080, #9932CC);    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .meme-photo {
+    max-height: 50px; /* Adjust the height as needed */
+    margin-right: 10px;
+    background: purple; /* Set the background color of the image and its container to purple */
+    padding: 5px; /* Optional: Add some padding to control the size of the purple background */
+  }
+  
+  .meme-photo img {
+    display: block; /* Ensure the image is treated as a block element */
+    width: 100%; /* Ensure the image takes up the entire container */
+  }
+  
+  h1 {
+    color: white; /* Set the text color to white to contrast with the purple background */
+    margin: 0;
+    font-size: 24px;
+  }
+
+
+/* Styling for the form */
+.meme-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 62px; /* Add some space between the navbar and the form */
+  }
+  
+  /* Styling for the input fields */
+  .input-field {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-field input {
+    width: 294px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px; /* Add some space between the inputs */
+  }
+  
+  .input-field input:focus {
+    border-color: #4B0082;
+  }
+  
+  /* Styling for the submit button */
+  .submit-button {
+    width: 650px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #800080;
+  }
+  
